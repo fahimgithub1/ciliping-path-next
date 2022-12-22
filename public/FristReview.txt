@@ -1,0 +1,13 @@
+.For image comparison will use "image comparison slider Befor and After" https://prnt.sc/-XpHDptuCk-C
+
+.In Navigaion 
+		i) "Resource" remove from nav and add in footer
+		ii) "Our Team" remove form nav add add new section in home
+		https://prnt.sc/w_XERt9fV93_
+
+."Our work" or "sample work" tiltle will "Projects" 
+	https://prnt.sc/k6CmeKyzOr-S
+
+.Price like githud  pricing https://prnt.sc/EiKVwuKAhKSl
+
+.Need to Change full design concept
