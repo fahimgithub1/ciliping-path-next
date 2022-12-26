@@ -1,11 +1,26 @@
-import HeaderMataTage from '../lib/headMataTag';
+import Navber from '../../layout/nav';
+import HeaderMataTage from '../../lib/headMataTag';
+import Footer from '../../layout/footer'
+import FristSection from '../../Components/freeTrail/fristSection';
+import OutPutFileOption from '../../Components/freeTrail/outPutFileOption';
+import UplodeFile from '../../Components/freeTrail/uplodeFile';
+import FreeTrailFrom from '../../Components/freeTrail/FreeTrailFrom';
 
-export default function Home() {
+export default function FreaTrail() {
   return (
     <>
       <HeaderMataTage />
+
       <main>
-        <h1>hello DMS</h1>
+        <Navber /> 
+          <div className='FreeTrailMain'>
+            <FristSection/>
+            <OutPutFileOption />
+            <UplodeFile />
+            <FreeTrailFrom />
+          </div>
+
+        <Footer />
       </main>
     </>
   )

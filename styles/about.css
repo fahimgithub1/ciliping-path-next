@@ -1,0 +1,9 @@
+.TextOverview{
+    margin-bottom: 20px;
+
+}
+
+.TextOverview p{
+    max-width: 780px;
+    margin: auto;
+}

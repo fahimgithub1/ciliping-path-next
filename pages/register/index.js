@@ -1,11 +1,11 @@
 import HeaderMataTage from '../../lib/headMataTag';
 
-export default function TramsAndCondition() {
+export default function Register() {
   return (
     <>
       <HeaderMataTage />
       <main>
-        <h1>Trams and conditin page</h1>
+        <h1>hello Register</h1>
       </main>
     </>
   )

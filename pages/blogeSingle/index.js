@@ -1,11 +1,11 @@
-import HeaderMataTage from '../lib/headMataTag';
+import HeaderMataTage from '../../lib/headMataTag';
 
-export default function Home() {
+export default function BlogeSingle(){
   return (
     <>
       <HeaderMataTage />
       <main>
-        <h1>hello DMS</h1>
+        <h1>hello Bloge Single</h1>
       </main>
     </>
   )

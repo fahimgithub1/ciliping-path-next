@@ -13,18 +13,1372 @@ body {
   padding: 0;
 }
 
-body {
-  color: black;
-  background-color: white;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;  
 }
 
-a {
-  color: inherit;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black !important;
+}
+
+p{
+  font-weight: 400;
+  font-size: 22px;
+  text-align: justify;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li{
+  display: inline;
+}
+
+.Form{
+  padding: 0 20px;
+}
+
+input{
+  border-radius: 7px;
+  padding: 7px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid rgb(111, 111, 111);
+}
+
+.TextArea{
+  margin-bottom: 20px;
+  border-radius: 12px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.Form button{
+  width: 100%;
+  font-size: 23px;
+}
+
+button{
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--Frist-Color);
+  border: none;
+  padding: 8px 17px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: var(--Second-Color);
+}
+
+button a,
+button a:hover{
+  color: white !important;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.PaddingBgDiv{
+  padding: 50px;
+  background-color: var(--Bg-Section);
+  padding-bottom: 30px;
+  border-radius: 12px;
+}
+
+.LogoWidth{
+  max-width: 215px;
+}
+
+.SectionMarginBot{
+  margin-bottom: 30px;
+}
+
+.SectionTitle{
+  color: var(--Frist-Color);
+  margin-bottom: 40px !important;
+  font-weight: bold !important;
+  text-transform: uppercase; 
+}
+
+.PriceSectionMain{
+  margin-bottom: 50px;
+}
+
+.container{
+  max-width: 1600px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.DubleColorHadder{
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  color: black;
+  text-transform: capitalize;
+}
+
+.DubleColorHadder span{
+  color: var(--Frist-Color);
+}
+
+.FlexWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ImageBox{
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.ImageBox img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  width: auto;
+}
+
+/* Navigation start */
+.TopHeder{
+  background: var(--Frist-Color);
+  color: white;
+}
+
+.TopHeder span{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.TopHeder .PnoneDiv{
+  margin-right: 16px;
+}
+
+.TopHeder ul li:not(:last-child){
+  margin-right: 10px;
+}
+
+.BottomNav{
+  border-bottom: 4px solid var(--Second-Color);
+}
+
+.BottomNav .navbar-brand{
+  max-width: 210px;
+  justify-content: space-between;
+}
+
+.BottomNav .navbar-brand img{
+  width: 100%;
+}
+
+.BottomNav .navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+.BottomNav ul li {
+  justify-content: center;
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.BottomNav .navbar-nav button{
+  width: min-content;
+}
+
+.active{
+  color: var(--Frist-Color) !important;
+  font-weight: 700;
+}
+/* Navigation end */
+
+
+/* Footer start */
+.FristFooter{
+  background-color: var(--Frist-Footer);
+}
+
+.Footer .PaddingBgDiv{
+  border-bottom: 0;
+}
+
+.FristFooter ul li{
+  font-weight: 600;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.FristFooter ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.FristFooter ul li a:hover{
+  text-decoration: none;
+  color: var(--Second-Color) !important;
+}
+
+.FristFooter .LogoWidth{
+  margin-bottom: 20px;
+}
+
+.FooterDiv1 p,
+.FooterDiv2 ul li{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.FooterDiv1 p{
+  font-weight: 400;
+}
+
+.FoterTaitle{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  color: var(--Frist-Color);
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.LastFooter{
+  background-color: black;
+  color: rgb(207, 207, 207);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.LastFooter p{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.FooterDiv4 i{
+  color: var(--Frist-Color);
+  font-size: 24px;
+}
+/* Footer end */
+
+/* heros start */
+.Heros{
+  margin-top: 30px;
+  border-radius: 12px;
+  padding: 0 15px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  max-height: 400px;
+  text-align: center;
+}
+
+.Heros img{
+  max-height: 400px;
+  filter: blur(2px);
+}
+
+.carousel{
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .7;
+  top: calc((85%-50px)/2);
+  background-color: var(--Frist-Color);
+  border-radius: 50%;
+}
+
+.carousel-control-prev{
+  left: 3%;
+}
+
+.carousel-control-next{
+  right: 3%;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgb(93, 93, 93);
+  background-color: var(--Frist-Color);
+}
+
+.Heros h5{
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.Heros button{
+  font-weight: 700;
+  font-size: 22px;
+  padding: 8px 20px;
+}
+/* heros end */
+
+/* services start */
+.SectionMarginBot{
+  border-radius: var(--border-radius);
+}
+
+.ServiceDiv{
+  margin-bottom: 20px;
+}
+
+.PerServices{
+  max-width: 354px;
+  position: relative;
+  height: 286px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 25%);
+  border-radius: var(--border-radius);
+  margin: auto;
+}
+
+.SectionMarginBot .Image{
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.ServicesText{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: var(--border-radius);
+  background-color: var(--Second-Color);
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.ServicesText:hover{
+  background-color: var(--Frist-Color);
+  cursor: pointer;
+}
+
+.ImageComparision{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.ImageComparision img{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+#seconImage{
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+#slider{
+  position: absolute;
+  -webkit-appearance: none;
+  height: 100%;
+  width: calc(100% + 30px);
+  margin-left: -20px;
+  background-color: transparent;
+  outline: none;
+}
+
+#slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.ServiceWithOverview img{
+  border-radius: 12px;
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ServiceWithOverview .SectionTitle{
+  margin-bottom: 10px;
+}
+
+.ServiceWithOverview p{
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+}
+/* services end */
+
+/* our work start */
+.SampleWorks{
+  display: flex;
+  justify-content: center;
+}
+
+.SampleWorks button{
+  width: 150px;
+  margin: auto;
+  /* margin-top: 30px; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+/* our work start */
+
+/* pricing start */
+.PriceSection{
+  background-color: var(--Bg-Section);
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.Pricing{
+  background-color: var(--Bg-Section);
+  box-shadow: 0px 0px 10px rgba(87, 87, 87, 0.25);
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all .5s;
+  margin-bottom: 20px;
+  max-width: 330px;
+}
+
+.Pricing:hover{
+  transform: translatey(-5px); 
+  box-shadow: 0px 0px 10px rgba(87, 87, 87, 0.55);
+}
+
+.TitleBg{
+  background-color: var(--Frist-Color);
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.Pricing img{
+  width: 124px;
+  height: 118px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Pricing .PriceImage p{
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.PriceAndText{
+  background-color: var(--Second-Color);
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.PriceAndText p:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.PriceAndText p:last-child{
+  margin-bottom: 0px;
+}
+/* pricing start */
+
+/* PerFormance start */
+.PerPerformence{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.PerPerformence h2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 54px;
+  text-transform: uppercase;
+  color: var(--Frist-Color);
+}
+
+.PerPerformence p{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+/* PerFormance end */
+
+/* Why Us start */
+.WhyUsDiv{
+  margin-bottom: 20px;
+}
+
+.USDiv{
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25) ;
+}
+
+.USDiv i{
+  margin-bottom: 20px;
+  font-size: 65px;
+  color: var(--Frist-Color);
+}
+
+.USDiv p{
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.USDiv span{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+/* Why Us end */
+
+/* how it works start */
+.WorkInfoDiv{
+  width: 25%;
+  padding: 15px 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.WorkArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5%;
+  overflow: hidden;
+}
+
+.WorkInfoDiv i{
+  color: var(--Second-Color);
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+.WorkInfoDiv h2{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--Frist-Color);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.WorkInfoDiv p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.WorkArrow i {
+  font-size: 45px;
+}
+/* how it works end */
+
+/* 3 easy steps start */
+.StepsImages{
+  margin-bottom: 10px;
+}
+/* 3 easy steps end */
+
+/* Clients start */
+.Clients h2{
+  margin-bottom: 10px;
+}
+
+.Clients p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.owl-carousel{
+  margin-bottom: 10px;
+}
+
+.owl-carousel img{
+  width: 86% !important;
+  margin: auto;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  height: 15px;
+  width: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: var(--Frist-Color);
+}
+/* Clients end */
+
+/* Blog start */
+.PerBlog{
+  margin-bottom: 20px;
+}
+
+.BlogDiv{
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  padding: 7px;
+  margin-bottom: 20px;
+  box-shadow:  0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.BlogDiv:hover{
+  background-color: var(--Bg-Section);
+}
+
+.BlogDiv img{
+  border-radius: 12px;
+  margin-bottom: 10px;
+  max-height: 185px;
+}
+
+.BlogDiv h2{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.BlogDiv p{
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  text-align: left !important;
+  text-transform: capitalize;
+}
+/* Blog end */
+
+/* sister concern start */
+.SocialIcons{
+  background-color: black;
+}
+
+.SocialIconsMain .PaddingBgDiv{
+  border-radius: 0;
+}
+
+.SisterConcernMain .PaddingBgDiv{
+  border-radius: 0;
+}
+
+.SisterConcern{
+  background-color: var(--Frist-Footer);
+  border-bottom: 1px solid ;
+  text-align: center;
+}
+
+.SisterConcern .ImageBox{
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.SisterConcern .ImageBox img{
+  border-radius: 12px;
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
+/* sister concern start */
+
+/* social meida section start */
+.SocilaSection{
+  background-color: #1C202B;
+  padding-top: 2rem;
+}
+
+.Width-11{
+  width: 11.11%;
+  padding: 5px;
+}
+
+.SocilDivWidth{
+  width: 5.5em;
+  margin: auto;
+  height: 5.5em;
+  border-radius: 10px 10px 0;
+  border: 2px solid #2c66af;
+  border: 2px solid #2c66af;
+  display: flex;
+  margin-bottom: .8rem;
+  border-color: white !important;
+}
+
+.SocilDivWidth i{
+  font-size: 40px;
+  color: blueviolet;
+  margin: auto;
+}
+
+.SocilaText h5{
+  color: white;
+  text-align: center;
+}
+
+.facbook{
+  border-color: #3F5E9B;
+}
+
+.SocilDivWidth .fa-facebook-f{
+  color: #1877F2;
+}
+
+.linkden{
+  border-color: #247CBF;
+}
+
+.SocilDivWidth .fa-linkedin-in{
+  color: #247CBF;
+}
+
+.towter{
+  border-color: #159DD8;
+}
+
+.SocilDivWidth .fa-twitter{
+  color: #159DD8;
+}
+
+.youtube{
+  border-color: #BD2126;
+}
+
+.SocilDivWidth .fa-youtube{
+  color: #BD2126;
+}
+
+.pinterest{
+  border-color: #BD2126;
+}
+
+.SocilDivWidth .fa-pinterest-p{
+  color: #BD2126;
+}
+
+.tumblr{
+  border-color: #36465D;
+}
+
+.SocilDivWidth .fa-tumblr{
+  color: #dddedf;
+}
+
+.flickr{
+  border-color: #FF0084;
+}
+
+.SocilDivWidth .fa-flickr{
+  color: #FF0084;
+}
+
+.instragrem{
+  border-color: #E1D1C1;
+}
+
+.SocilDivWidth .fa-instagram{
+  color: #ED4000;
+}
+
+.behance{
+  border-color: #FFF;
+}
+
+.SocilDivWidth .fa-behance{
+  color: #FFF;
+}
+
+.Width-11{
+  width: 11.11%;
+  padding: 5px;
+}
+/* social meida section end */
+/* ============================= */
+
+/* Services Page start*/
+.ServiceHeros{
+  background: linear-gradient(to left, #2a2e76c4, #0388ca84);
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.ServiceHeros button{
+  box-shadow:  0px 0px 10px rgba(255, 255, 255, 0.45);
+}
+
+.ServPageOver{
+  display: flex;
+  align-items: center;
+}
+
+.ServPageOver p{
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.ServPageOverImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.ServicesReality .PriceSection {
+  margin-bottom: 20px;
+}
+
+.ServicesReality .PriceSection p{
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+}
+/* Services Page end*/
+
+/* About us start*/
+.TextOverview{
+  padding-bottom: 20px;
+}
+
+.TextOverview p{
+  max-width: 780px;
+  margin: auto;
+}
+/* About us end*/
+
+/* Company facts start */
+.CompanyFacts h2{
+  color: black;
+}
+
+.Facts h2{
+  font-weight: 500  !important;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+  color: var(--Frist-Color);
+}
+
+.Facts p{
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #262626;
+}
+/* Company facts start */
+
+/* Frea Trail start */
+.FreeTrailMain{
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.SentFeeTrail{
+  margin-top: 50px;
+}
+
+.SentFeeTrail h2,
+.SelectOption h2{
+  text-align: left !important;
+  margin-bottom: 20px !important;
+  color: #444242;
+  text-transform: capitalize;
+  font-weight: 600 !important;
+}
+
+.SentFeeTrail hr{
+  border: 3px solid var(--Frist-Color);
+  opacity: 1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.CheckItem{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.CheckItem input{
+  width: 22px;
+  height: 22px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.CheckItem span{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.SelectType h4{
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #444242;
+  text-transform: capitalize;
+}
+
+.SelectType select{
+  width: 100%;
+  padding: 10px;
+  background: var(--Bg-Section);
+  border: 1px solid rgb(130, 130, 130);
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.upload_section{
+  border: 2px dashed #72BF44;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.upload_section h2{
+  font-size: 26px;
+  text-align: center !important;
+}
+
+.upload_section label{
+  color: #72BF44;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.upload_section p{
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.upload_section input{
+  display: none;
+}
+
+#size_message{
+  font-size: 15px;
+}
+/* Frea Trail end */
+
+/* Blog start */
+.Blog{  
+  margin-top: 50px;
+}
+
+.Blog h2{  
+  margin-bottom: 15px !important;
+}
+
+.Blog p{  
+  text-align: center;
+}
+
+.toggole{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.toggole button{
+  background: none !important;
+  color: black ;
+  text-align: center;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+.toggole .active{
+  background: none !important;
+  color: var(--Frist-Footer) ;
+  border-radius: 0;
+  border-bottom: 4px solid var(--Second-Color);
+}
+/* Blog end */
+
+/* responsive start */
+@media screen and (min-width: 1024px) {
+  .Wlg20{
+      width: 20%;
   }
+}
+
+@media screen and (min-width: 575px) {
+  .TopHeder .LeftSide{
+      text-align: left !important;
+  }
+
+  .carousel-caption {
+      height: 150px;
+      top: calc((50%-150px)/2);
+      color: #fff;
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .BottomNav ul li{
+      font-size: 15px;
+  }
+}
+
+/* for tabe */
+@media screen and (max-width: 991px) {
+  .Width-11{
+      width: 20%;
+      padding: 5px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .PaddingBgDiv{
+      padding: 25px;
+      padding-bottom: 5px;
+  }
+
+  .Heros{
+      margin-top: 15px;
+      margin-bottom: 25px;
+  }
+
+  .SectionMarginBot{
+      margin-bottom: 25px;
+  }
+  
+  .SectionTitle{
+      margin-bottom: 15px !important;
+  }
+
+  .SampleWorks button{
+      margin-top: 15px;
+      margin-bottom: 0px;
+  }
+
+  .PriceSectionMain .SampleWorks button{
+      margin-bottom: 25px;
+  }
+
+  .USDiv p {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
+
+  .USDiv span {
+      font-size: 15px;
+  }
+
+  .USDiv i {
+      margin-bottom: 10px;
+  }
+
+  .Clients p{
+      margin-bottom: 25px;
+  }
+
+  .SisterConcern .Wlg20{
+      width: 20%;
+  }
+
+  .SisterConcern .Wlg20 img{
+      width: 100%;
+      height: auto;
+  }
+
+  .WorkInfoDiv{
+      width: 28%;
+  }
+
+  .WorkArrow{
+      width: 5.333%;
+  }
+
+  .WorkArrow i {
+      font-size: 21px;
+  }
+
+  .PerServices,
+  .SectionMarginBot .Image{
+      height: 240px;
+  }
+}
+
+/* for mobile */
+
+@media screen and (max-width: 767px) {
+  p{
+    margin-bottom: 10px !important;
+  }
+
+  .Blog,
+  .SentFeeTrail{  
+    margin-top: 12px;
+  }
+
+  .TextOverview {
+      padding-bottom: 0px;
+  }
+
+  .container{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .PaddingBgDiv{
+      padding: 15px;
+      padding-bottom: -5px;
+  }
+
+  .Heros{
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+      width: 40px;
+      height: 40px;
+  }
+
+  .SectionMarginBot{
+      margin-bottom: 15px;
+  }
+
+  .navbar-brand img{
+      max-width: 100px;
+  }
+
+  .carousel,
+  .carousel-inner,
+  .carousel-inner img{
+      max-height: 200px !important;
+      overflow: hidden;
+  }
+
+  .Heros button{
+      font-weight: 700;
+      font-size: 16px;
+      padding: 5px 10px;
+  }
+
+  .Heros h5{
+      font-weight: 700;
+      font-size: 22px;
+  }
+  
+  .SectionTitle{
+      margin-bottom: 5px !important;
+  }
+
+  .SampleWorks button{
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+
+  .PriceSectionMain .SampleWorks button{
+      margin-bottom: 0;
+  }
+
+  .PerPerformence p {
+      font-size: 14px;
+  }
+
+  .PerPerformence h2 {
+      font-weight: 700;
+      font-size: 31px;
+  }
+
+  .Clients p{
+      margin-bottom: 10px;
+  }
+
+  .WorkArrow{
+      display: none;
+      width: 0;
+  }
+
+  .WorkInfoDiv {
+      width: 100%;
+      max-width: 358px;
+      margin: auto;
+      margin-bottom: 15px;
+  }
+
+  .ServiceHeros{
+    background: linear-gradient(to left, #2a2e76c4, #0388ca84);
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .ServPageOver p{
+      margin-bottom: 10px;
+  }
+
+  .ImageBox img{
+    margin-bottom: 10px;
+  }
+  
+  .SentFeeTrail hr{
+    margin-bottom: 10px;
+  }
+
+  .Blog h2{  
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .carousel-indicators{
+      margin-bottom: 5px;
+  }
+
+  .MobileW50{
+      width: 50% !important;
+  }
+
+  .ServicesText {
+      font-size: 14px;
+  }
+
+  .PerServices,
+  .SectionMarginBot .Image{
+      height: 200px;
+  }
+
+  .Pricing{
+      margin-bottom: 10px;
+  }
+
+  .PriceSectionMain .container{
+      padding: 0;
+  }
+
+  .PerPerformence h2{
+      font-weight: 600;
+      font-size: 54px;
+  }
+
+  .PerPerformence p{
+      font-size: 24px;
+  }
+
+  .SisterConcern .ImageBox {
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .Width-11{
+      width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .Heros h5{
+      font-size: 16px;
+  }
+}
+/* responsive end */
+
+:root{
+  --Frist-Color: #2C3076;
+  --Second-Color: #0389CA;
+  --border-radius: 12px;
+  --Frist-Footer: #CCCCCC;
+  --Bg-Section: #C8E7F5;
+  --Box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25):
 }
