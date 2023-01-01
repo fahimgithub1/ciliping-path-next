@@ -1,3 +1,5 @@
+import Footer from '../../layout/footer';
+import Navber from '../../layout/nav';
 import HeaderMataTage from '../../lib/headMataTag';
 
 export default function BlogeSingle(){
@@ -5,7 +7,9 @@ export default function BlogeSingle(){
     <>
       <HeaderMataTage />
       <main>
-        <h1>hello Bloge Single</h1>
+        <Navber />
+
+        <Footer />
       </main>
     </>
   )

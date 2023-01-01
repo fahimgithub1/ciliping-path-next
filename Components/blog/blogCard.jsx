@@ -7,7 +7,7 @@ export default function BlogCard(props){
     return(
         <Width33Wrappre>
             <Link href="/blogeSingle">
-                <div class="BlogDiv">
+                <div className="BlogDiv">
                     <img src="/blog2.jpg" alt="" />
                     <h2>{props.blogTitle}</h2>
                     <p>

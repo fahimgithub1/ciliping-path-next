@@ -53,7 +53,15 @@ export default function Bloge() {
 
                 <div class="nav toggole text-center" id="nav-tab" role="tablist" >
                     <button 
-                            class="nav-link active mb-2" id="nav-dscr-tab" data-bs-toggle="tab" 
+                            class="nav-link active mb-2" id="nav-all-tab" data-bs-toggle="tab" 
+                            data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" 
+                            aria-selected="true"
+                    >
+                                All
+                    </button>
+
+                    <button 
+                            class="nav-link mb-2" id="nav-dscr-tab" data-bs-toggle="tab" 
                             data-bs-target="#nav-dscr" type="button" role="tab" aria-controls="nav-dscr" 
                             aria-selected="true"
                     >
@@ -76,7 +84,19 @@ export default function Bloge() {
                 </div>
 
                 <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-dscr" role="tabpanel" aria-labelledby="nav-dscr-tab" tabindex="0">
+                  <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">
+                    <div className='row'>
+                        {Photography.map((item)=>(
+                          <BlogCard 
+                                      key = {item.id}
+                                      blogTitle = {item.blogTitle}
+                                      blogePara = {item.blogePara}
+                          />
+                        ))}
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade show" id="nav-dscr" role="tabpanel" aria-labelledby="nav-dscr-tab" tabindex="0">
                     <div className='row'>
                         {Photography.map((item)=>(
                           <BlogCard 
@@ -114,7 +134,7 @@ export default function Bloge() {
                   </div>
               </div>
             </div>
-        </SectionWrapper>
+          </SectionWrapper>
 
         <Footer />
       </main>

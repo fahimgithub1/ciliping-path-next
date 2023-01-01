@@ -36,7 +36,7 @@ a{
 
 p{
   font-weight: 400;
-  font-size: 22px;
+  font-size: 18px;
   text-align: justify;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -63,6 +63,13 @@ input{
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid rgb(111, 111, 111);
+}
+
+label{
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 
 .TextArea{
@@ -128,8 +135,8 @@ button a:hover{
 .container{
   max-width: 1600px;
   width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .DubleColorHadder{
@@ -165,6 +172,25 @@ button a:hover{
   max-height: 100%;
   border-radius: 12px;
   width: auto;
+}
+
+hr{
+  border: 3px solid var(--Frist-Color);
+  opacity: 1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.MapAndInfo{
+  display: flex;
+  align-items: center;
+}
+
+iframe{
+  width: 100%;
+  height: 575px;
+  margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 /* Navigation start */
@@ -374,6 +400,21 @@ button a:hover{
   box-shadow: 0px 0px 8px rgb(0 0 0 / 25%);
   border-radius: var(--border-radius);
   margin: auto;
+  padding: 7px;
+  margin-bottom: 20px !important;
+}
+
+.PerServices div{
+  height: 100%;
+}
+
+.PerServices div img{
+  border-radius: 7px;
+}
+
+.__rcs-handle-button{
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .SectionMarginBot .Image{
@@ -484,7 +525,7 @@ button a:hover{
 
 .Pricing{
   background-color: var(--Bg-Section);
-  box-shadow: 0px 0px 10px rgba(87, 87, 87, 0.25);
+  box-shadow: 0px 0px 5px rgba(133, 133, 133, 0.25);
   margin: auto;
   padding: 20px;
   border-radius: 12px;
@@ -495,7 +536,7 @@ button a:hover{
 
 .Pricing:hover{
   transform: translatey(-5px); 
-  box-shadow: 0px 0px 10px rgba(87, 87, 87, 0.55);
+  box-shadow: 0px 0px 10px rgba(135, 135, 135, 0.55);
 }
 
 .TitleBg{
@@ -969,13 +1010,6 @@ button a:hover{
   font-weight: 600 !important;
 }
 
-.SentFeeTrail hr{
-  border: 3px solid var(--Frist-Color);
-  opacity: 1;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
 .CheckItem{
   display: flex;
   margin-bottom: 15px;
@@ -1086,6 +1120,207 @@ button a:hover{
 }
 /* Blog end */
 
+/* contact start */
+.contactLocation h2{
+  text-transform: capitalize;
+  margin-bottom: 20px !important;
+}
+
+.Location{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Location i{
+  margin-right: .5rem;
+  color: var(--Frist-Color);
+}
+
+.contactPerMain{
+  margin-bottom: 20px;
+}
+
+.contactPerMain:not(:last-child){
+  border-right: 2px solid var(--Frist-Color);
+}
+
+.contactPer{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contactPer i{
+  margin-right: .5rem;
+  font-size: 18px;
+  margin-top: -5px;
+  color: var(--Frist-Color);
+}
+
+.contactPer h4{
+  margin-right: .5rem;
+  font-size: 18px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.contactPerText p{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-break: anywhere;
+}
+
+.ContactFrom{
+  margin-bottom: 20px;
+}
+
+.ContactFrom h2{
+  text-align: left !important;
+  margin-bottom: 20px !important;
+}
+/* contact end */
+
+/* Pricing start */
+.PricingSection h2{
+  margin-bottom: 40px !important;
+}
+
+.Pricing h2{
+  margin-bottom: 20px !important;
+}
+/* Pricing end */
+
+/* Our Works start*/
+.OureWarks .toggole button{
+  border: 2px solid var(--Frist-Color);
+  margin-right: 5px;
+  border-radius: 13px;
+  font-size: 20px;
+  font-weight: 600px;
+}
+/* Our Works end*/
+
+/* how it warks start */
+.howITWorks .SectionTitle{
+  color: #000000;
+  text-align: left !important;
+}
+/* how it warks end */
+
+/* Trams and Conditon start */
+.TramsCondition{
+  border: 1px solid rgb(78, 78, 78);
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+.TramsCondition h2{
+  text-transform: capitalize;
+}
+.TramsCondition h3{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+                  
+.TramsCondition ul{
+  list-style: disc;
+  padding-left: 20px;
+}
+                  
+.TramsCondition ul li{
+  display: block;
+  margin-bottom: 10px;
+}
+/* Trams and Conditon end */
+
+/* Login From start */
+.wrap-login100 {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #008acb69;
+}
+
+.LoinBody{
+  background-color: var(--Bg-Section);
+  background-image: linear-gradient(to right, var(--Frist-Color), var(--Bg-Section), var(--Second-Color));
+}
+
+.login100-form-title {
+  display: block;
+  /* font-family: Poppins-Bold; */
+  font-size: 39px;
+  color: #333;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: var(--Frist-Color);
+}
+
+.p-r-55 {
+  padding-right: 35px;
+}
+
+.p-l-55 {
+  padding-left: 35px;
+}
+
+.p-b-54 {
+  padding-bottom: 35px;
+}
+
+.p-t-65 {
+  padding-top: 35px;
+}
+
+.p-b-49 {
+  padding-bottom: 35px;
+}
+
+.orSingin .Or{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.LodinIcon ul li{
+  font-size: 27px;
+  padding: 1px 7px;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: .2rem;
+}
+
+.LodinIcon ul li i{
+  margin: 0;
+  bottom: 0;
+}
+
+.Singin{
+  margin-top: 10px;
+}
+
+.Singin {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Singin a{
+  color: var(--Frist-Color) !important;
+}
+
 /* responsive start */
 @media screen and (min-width: 1024px) {
   .Wlg20{
@@ -1117,6 +1352,19 @@ button a:hover{
   .Width-11{
       width: 20%;
       padding: 5px
+  }
+
+  .contactPerMain:not(:last-child){
+    border: none;
+  }
+
+  .contactPerMain{
+    border: none;
+  }
+  
+  .TramsCondition{
+    padding: 20px;
+    padding-bottom: 0px;
   }
 }
 
@@ -1199,7 +1447,6 @@ button a:hover{
 }
 
 /* for mobile */
-
 @media screen and (max-width: 767px) {
   p{
     margin-bottom: 10px !important;
@@ -1280,7 +1527,7 @@ button a:hover{
   .PerPerformence h2 {
       font-weight: 700;
       font-size: 31px;
-  }
+  } 
 
   .Clients p{
       margin-bottom: 10px;
@@ -1312,13 +1559,28 @@ button a:hover{
     margin-bottom: 10px;
   }
   
-  .SentFeeTrail hr{
+  hr{
     margin-bottom: 10px;
   }
 
   .Blog h2{  
     margin-bottom: 10px !important;
   }
+
+  iframe{
+    height: 200px;
+    margin-bottom: 0;
+  }
+  
+  .TramsCondition{
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+
+  .TramsCondition h3{
+    margin-bottom: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 575px) {
