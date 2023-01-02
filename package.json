@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@next/font": "13.0.7",
+    "@ntegral/react-owl-carousel": "^1.0.1",
+    "jquery": "^3.6.3",
     "next": "13.0.7",
     "react": "18.2.0",
     "react-compare-slider": "^2.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }

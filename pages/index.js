@@ -7,6 +7,11 @@ import LeftImage from '../Components/services/leftImage';
 import WorkSample from '../Components/home/workSample';
 import Pricing from '../Components/home/pricing';
 import Counting from '../Components/home/counting';
+import WhyUs from '../Components/home/whyUs';
+import HowItWorkds from '../Components/home/howItWorkds';
+import S3teps from '../Components/home/3steps';
+import Blog from '../Components/home/Blog';
+import OwlCarosul from '../Components/home/owlCarosul';
 
 const leftImage = {
   title : "KICK THINGS OFF BY REQUESTING A QUOTE.",
@@ -35,8 +40,11 @@ export default function Home() {
         <WorkSample />
         <Pricing />
         <Counting />
-
-        
+        <WhyUs />
+        <HowItWorkds />
+        <S3teps />
+        <OwlCarosul />
+        <Blog />
 
         <Footer />
       </main>

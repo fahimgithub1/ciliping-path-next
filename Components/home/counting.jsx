@@ -8,17 +8,17 @@ export default function Counting(){
             <div className="row">
                 <div className="col-lg-4 col-md-4 col-sm-4 PerPerformence">
                     <h2>900+</h2>
-                    <p>Happy Clients</p>
+                    <p className="text-center">Happy Clients</p>
                 </div>  
 
                 <div className="col-lg-4 col-md-4 col-sm-4 PerPerformence">
                     <h2>900+</h2>
-                    <p>Happy Clients</p>
+                    <p className="text-center">Happy Clients</p>
                 </div>
 
                 <div className="col-lg-4 col-md-4 col-sm-4 PerPerformence">
                     <h2>900+</h2>
-                    <p>Happy Clients</p>
+                    <p className="text-center">Happy Clients</p>
                 </div>
             </div>
         </BackgroundSection>

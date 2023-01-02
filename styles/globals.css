@@ -622,6 +622,11 @@ iframe{
   margin-bottom: 20px;
 }
 
+.WhyUs h2,
+.WhyUs p{
+  text-align: center;
+}
+
 .USDiv{
   padding: 15px;
   border-radius: 12px;
@@ -696,8 +701,10 @@ iframe{
 /* how it works end */
 
 /* 3 easy steps start */
-.StepsImages{
-  margin-bottom: 10px;
+@media screen and (min-width: 991px) {
+  .StepsImages{
+    padding-bottom: 20px;
+  }
 }
 /* 3 easy steps end */
 
@@ -1453,13 +1460,50 @@ iframe{
 }
 
 .TeamMember .MemberDetails ul li i{
-  color: white ;
+  color: white;
 }
 
 .TeamMember .MemberDetails ul li:not(:last-child){
   margin-right: .2rem;
 }
 /* team members end */
+
+.crosulItem{
+  padding: 10px;
+}
+
+.crosulItem img{
+  border-radius: 7px;
+}
+
+.slick-dots {
+  bottom  : -14px !important;
+}
+
+button:before {
+  font-size: 17px !important;
+}
+
+.slick-prev, .slick-next {
+  color: #00000087;
+  background: var(--Second-Color) !important;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50%;
+}
+
+.slick-prev{
+  left: 0 !important;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 0px !important;
+}
+
+button:before {
+  font-size: 15px !important;
+}
 
 /* responsive start */
 @media screen and (min-width: 1024px) {

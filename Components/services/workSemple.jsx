@@ -1,5 +1,6 @@
 import SectionWrapper from "../../layout/sectionWrapper";
 import SectionTitle from "../../lib/sectionTaitle";
+import SeeAllBTn from "../../lib/seeAll";
 import ImageMatching from "../home/imageMatching";
 
 
