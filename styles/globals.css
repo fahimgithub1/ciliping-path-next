@@ -389,6 +389,15 @@ iframe{
   border-radius: var(--border-radius);
 }
 
+.services h2{
+  text-align: left !important;
+}
+
+.services img{
+  max-width: 330px;
+  height: auto;
+}
+
 .ServiceDiv{
   margin-bottom: 20px;
 }
@@ -764,7 +773,85 @@ iframe{
   text-align: left !important;
   text-transform: capitalize;
 }
+
+.AboutUSLi{
+  display: flex;
+  align-items: center;
+  background-color: rgb(226 226 226);
+  font: 20px;
+  border-radius: 6px;
+}
+
+.AboutUSLi:not(:last-child){
+  margin-bottom: .7rem;
+}
+
+.LinkFrist{
+  padding: 6px 10px !important;
+  font-size: 17px !important;
+}
+
+.RightPerDiv h5{
+  background-color: var(--Frist-Color);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.AboutUsRight .LinkDiv{
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.AboutUsRight .LinkDiv a{
+  color: var(--logoColor-1);
+}
+
+.AboutUsRight .LinkDiv a:hover{
+  color: var(--logoColor-2);
+}
 /* Blog end */
+
+/* Blog single start */
+.DaitlesPerDIv .MainTilte{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.DaitlesPerDIv .imageDivBlog{
+  overflow: hidden;
+}
+
+.DaitlesPerDIv img{
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 300px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.DaitlesPerDIv p{
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.DaitlesPerDIv p:not(:last-child){
+  margin-bottom: .7rem;
+}
+
+.DaitlesPerDIv:not(:last-child){
+  margin-bottom: 2rem;
+}
+
+.RightPerDiv{
+  margin-bottom: 1.4rem;
+}
+/* Blgo single end */
 
 /* sister concern start */
 .SocialIcons{
@@ -1242,10 +1329,11 @@ iframe{
 
 /* Login From start */
 .wrap-login100 {
-  width: 500px;
+  max-width: 500px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
+  padding: 35px;
   box-shadow: 0 0 5px #008acb69;
 }
 
@@ -1256,33 +1344,12 @@ iframe{
 
 .login100-form-title {
   display: block;
-  /* font-family: Poppins-Bold; */
   font-size: 39px;
   color: #333;
   line-height: 1.2;
   font-weight: 700;
   text-align: center;
   color: var(--Frist-Color);
-}
-
-.p-r-55 {
-  padding-right: 35px;
-}
-
-.p-l-55 {
-  padding-left: 35px;
-}
-
-.p-b-54 {
-  padding-bottom: 35px;
-}
-
-.p-t-65 {
-  padding-top: 35px;
-}
-
-.p-b-49 {
-  padding-bottom: 35px;
 }
 
 .orSingin .Or{
@@ -1320,6 +1387,79 @@ iframe{
 .Singin a{
   color: var(--Frist-Color) !important;
 }
+/* Login end */
+
+/* team members start */
+.TeamMemberPad{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.TeamMember{
+  box-shadow: 0px 0px 19px rgba(99, 99, 99, 0.18);
+  border-radius: 12px;
+  padding: 12px;
+  position: relative;
+  margin-bottom: 20px !important;
+  margin-top: 7.5rem !important;
+}
+
+.TeamMember .MembersImage{
+  border-radius: 12px;
+  z-index: 10;
+  width: 180px;
+  height: 190px;
+  margin: auto;
+  margin-top: -5.5rem;
+  margin-bottom: 20px;
+}
+
+.TeamMember .MembersImage img{
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.TeamMember .MemberDetails .TopBg{
+  top: 0;
+  position: absolute;
+  height: 20px;
+  width: 100%;
+  left: 0;
+  z-index: -5;
+  border-radius: 12px 12px 0 0;
+  background-color: rgb(8, 29, 104);
+}
+
+.TeamMember .MemberDetails h2{
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.TeamMember .MemberDetails p{
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  text-align: center;
+  text-transform: capitalize !important;
+}
+
+.TeamMember .MemberDetails ul li{
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50%;
+  background-color: rgb(8, 29, 104);
+}
+
+.TeamMember .MemberDetails ul li i{
+  color: white ;
+}
+
+.TeamMember .MemberDetails ul li:not(:last-child){
+  margin-right: .2rem;
+}
+/* team members end */
 
 /* responsive start */
 @media screen and (min-width: 1024px) {
@@ -1365,6 +1505,11 @@ iframe{
   .TramsCondition{
     padding: 20px;
     padding-bottom: 0px;
+  }
+
+  .TeamMember .MembersImage {
+    width: 160px;
+    height: 160px;
   }
 }
 
@@ -1620,6 +1765,23 @@ iframe{
 
   .SisterConcern .ImageBox {
       margin-bottom: 10px;
+  }
+
+  .TeamMember {
+    margin-top: 5.5rem !important;
+  }
+
+  .wrap-login100 {
+    padding: 20px 7px !important;
+  }
+
+  .LodinIcon ul li{
+    font-size: 18px;
+  }
+
+  .OureWarks .toggole button{
+    font-size: 12px;
+    padding: 5px;
   }
 }
 
