@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PaymentMethod from "./paymentMethod";
 import SisterConcern from "./sisterConcern";
 import SocilaIconSection from "./soclilaIconSection";
 
@@ -40,7 +41,7 @@ export default function Footer(){
                             </div>
             
                             <div className="col-lg-2 col-md-6 col-sm-6">
-                                <h4 className="FoterTaitle">Services</h4>
+                                <h4 className="FoterTaitle">Pages</h4>
                                 <ul>
                                     <li><Link href="blog">Blog</Link></li>
                                     <li><Link href="FQA">Fqa</Link></li>
@@ -92,6 +93,8 @@ export default function Footer(){
                                 </ul>
                             </div>
                         </div>
+
+                        <PaymentMethod />
                     </div>
                 </div>
 

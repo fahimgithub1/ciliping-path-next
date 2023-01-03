@@ -1,4 +1,5 @@
 import LeftSide from '../../Components/blogeSingle/leftSide';
+import RelatedBlod from '../../Components/blogeSingle/relatedBlod';
 import RightSide from '../../Components/blogeSingle/rightSide';
 import Footer from '../../layout/footer';
 import Navber from '../../layout/nav';
@@ -8,6 +9,7 @@ export default function BlogeSingle(){
   return (
     <>
       <HeaderMataTage />
+      
       <main>
         <Navber />
         
@@ -27,6 +29,8 @@ export default function BlogeSingle(){
             </div>
           </div>
         </div>
+
+        <RelatedBlod />
 
         <Footer />
       </main>

@@ -135,7 +135,6 @@ export default function Bloge() {
               </div>
             </div>
           </SectionWrapper>
-
         <Footer />
       </main>
     </>

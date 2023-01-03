@@ -251,6 +251,7 @@ iframe{
 /* Footer start */
 .FristFooter{
   background-color: var(--Frist-Footer);
+  border-radius: 0;
 }
 
 .Footer .PaddingBgDiv{
@@ -316,6 +317,12 @@ iframe{
 .FooterDiv4 i{
   color: var(--Frist-Color);
   font-size: 24px;
+}
+
+.PaymentImage{
+  background-color: var(--Second-Color);
+  border-radius: 12px;
+  width: 113px;
 }
 /* Footer end */
 
@@ -857,6 +864,10 @@ iframe{
 
 .RightPerDiv{
   margin-bottom: 1.4rem;
+}
+
+.RelatedBlog h2{
+  text-align: left !important;
 }
 /* Blgo single end */
 
