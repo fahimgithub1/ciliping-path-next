@@ -93,18 +93,19 @@ export default function Footer(){
                                 </ul>
                             </div>
                         </div>
-
-                        <PaymentMethod />
-                    </div>
-                </div>
-
-                <div className="LastFooter">
-                    <div className="container">
-                        <p>Copyright 2022 ©Clipping Path Perfectionist All rights reserved | 
-                            Design And Developed by Digital Marketing Solution (Pvt.) Ltd.</p>
                     </div>
                 </div>
             </section>
+
+            <PaymentMethod />
+
+            <div className="LastFooter">
+                <div className="container">
+                    <p>Copyright 2022 ©Clipping Path Perfectionist All rights reserved | 
+                         Design And Developed by Digital Marketing Solution (Pvt.) Ltd.</p>
+                </div>
+            </div>
+
         </>
     )
 }

@@ -5,8 +5,12 @@ export default function PaymentMethod(){
 
     return(
         <section className="SisterConcernMain">
-            <div className="PaddingBgDiv SisterConcern">
+            <div className="PaddingBgDiv SisterConcern paymetMetod">
                 <div className="container">
+                    <h2 className="SectionTitle text-center">
+                        Payment Method
+                    </h2>
+
                     <div className="row">
                         <div className="Wlg20 MobileW50">
                             <div className="ImageBox">

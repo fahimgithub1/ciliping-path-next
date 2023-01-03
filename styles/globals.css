@@ -324,6 +324,10 @@ iframe{
   border-radius: 12px;
   width: 113px;
 }
+
+.paymetMetod{
+  background-color: rgb(151 150 150) !important;
+}
 /* Footer end */
 
 /* heros start */
