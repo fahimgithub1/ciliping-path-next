@@ -7,9 +7,9 @@ export default function PaymentMethod(){
         <section className="SisterConcernMain">
             <div className="PaddingBgDiv SisterConcern paymetMetod">
                 <div className="container">
-                    <h2 className="SectionTitle text-center">
+                    {/* <h2 className="SectionTitle text-center">
                         Payment Method
-                    </h2>
+                    </h2> */}
 
                     <div className="row">
                         <div className="Wlg20 MobileW50">
@@ -26,7 +26,7 @@ export default function PaymentMethod(){
                             <div className="ImageBox">
                                 <Link href="#">
                                     <div className="PaymentImage">
-                                        <img src="/paymentMethod1.png" alt="" />
+                                        <img src="/Mastercard22.jpg" alt="" />
                                     </div>
                                 </Link>
                             </div>
@@ -46,7 +46,7 @@ export default function PaymentMethod(){
                             <div className="ImageBox">
                                 <Link href="#">
                                     <div className="PaymentImage">
-                                        <img src="/paymentMethod3.png" alt="" />
+                                        <img src="/paymentMethod1.png" alt="" />
                                     </div>
                                 </Link>
                             </div>
@@ -56,7 +56,7 @@ export default function PaymentMethod(){
                             <div className="ImageBox">
                                 <Link href="#">
                                     <div className="PaymentImage">
-                                        <img src="/paymentMethod1.png" alt="" />
+                                        <img src="/usapank.png" alt="" />
                                     </div>
                                 </Link>
                             </div>

@@ -323,10 +323,21 @@ iframe{
   background-color: var(--Second-Color);
   border-radius: 12px;
   width: 113px;
+  height: 100px;
+}
+
+.PaymentImage img{
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .paymetMetod{
   background-color: rgb(151 150 150) !important;
+}
+
+.paymetMetod h2{
+  font-size: 22px;
+  color: white;
 }
 /* Footer end */
 
