@@ -14,7 +14,7 @@ export default function Carosul(){
 
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="https://img.freepik.com/free-photo/professional-editor-doing-retouching-work-image_482257-6419.jpg?size=626&ext=jpg&ga=GA1.2.1595105959.1664433145&semt=sph" className="d-block w-100" alt="..."/>
+                            <img src="/heros1.webp" className="d-block w-100" alt="..."/>
 
                             <div className="carousel-caption d-block">
                                 <h5>Cliping Path Perfectionis</h5>
@@ -25,7 +25,7 @@ export default function Carosul(){
                         </div>
 
                         <div className="carousel-item">
-                            <img src="https://img.freepik.com/premium-photo/woman-editing-photo-computer-software-interface-is-completely-made-up_746318-1425.jpg?size=626&ext=jpg&ga=GA1.2.1595105959.1664433145&semt=sph" className="d-block w-100" alt="..."/>
+                            <img src="/heros2.webp" className="d-block w-100" alt="..."/>
 
                             <div className="carousel-caption d-block">
                                 <h5>Cliping Path Perfectionis</h5>
@@ -36,7 +36,7 @@ export default function Carosul(){
                         </div>
 
                         <div className="carousel-item">
-                            <img src="https://img.freepik.com/premium-vector/beautiful-design-golden-frame-background-vector_664482-1613.jpg?size=338&ext=jpg&ga=GA1.2.1595105959.1664433145&semt=sph" className="d-block w-100" alt="..."/>
+                            <img src="/heros2.webp" className="d-block w-100" alt="..."/>
 
                             <div className="carousel-caption d-block">
                                 <h5>Cliping Path Perfectionis</h5>

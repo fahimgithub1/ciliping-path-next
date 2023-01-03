@@ -12,6 +12,7 @@ import HowItWorkds from '../Components/home/howItWorkds';
 import S3teps from '../Components/home/3steps';
 import Blog from '../Components/home/Blog';
 import OwlCarosul from '../Components/home/owlCarosul';
+import Services from '../Components/home/services';
 
 const leftImage = {
   title : "KICK THINGS OFF BY REQUESTING A QUOTE.",
@@ -31,6 +32,7 @@ export default function Home() {
       <main>
         <Navber />
         <Carosul />
+        <Services />
         <RightImage title={leftImage.title} 
                     paraTest={leftImage.paraTest}
         />

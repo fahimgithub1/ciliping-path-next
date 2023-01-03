@@ -322,8 +322,8 @@ iframe{
 .PaymentImage{
   background-color: var(--Second-Color);
   border-radius: 12px;
-  width: 113px;
-  height: 100px;
+  width: 68px;
+  height: 61px;
 }
 
 .PaymentImage img{
@@ -332,12 +332,12 @@ iframe{
 }
 
 .paymetMetod{
-  background-color: rgb(151 150 150) !important;
+  background-color: rgb(188 188 188) !important;
 }
 
 .paymetMetod h2{
   font-size: 22px;
-  color: white;
+  margin-bottom: 0 !important;
 }
 /* Footer end */
 
@@ -441,6 +441,22 @@ iframe{
 
 .PerServices div img{
   border-radius: 7px;
+}
+
+.ServicesName{
+  text-align: center;
+  background: #2c3076;
+  color: white;
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+.ServicesName p{
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
 }
 
 .__rcs-handle-button{
@@ -790,16 +806,19 @@ iframe{
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: justify;
   text-transform: capitalize;
 }
 
 .BlogDiv p{
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   text-align: justify;
-  text-align: left !important;
   text-transform: capitalize;
 }
 
@@ -897,6 +916,8 @@ iframe{
 
 .SisterConcernMain .PaddingBgDiv{
   border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .SisterConcern{
@@ -904,6 +925,7 @@ iframe{
   border-bottom: 1px solid ;
   text-align: center;
 }
+
 
 .SisterConcern .ImageBox{
   border-radius: 12px;
@@ -913,9 +935,9 @@ iframe{
 
 .SisterConcern .ImageBox img{
   border-radius: 12px;
-  width: auto;
   height: 100%;
   margin: auto;
+  max-width: 97px;
 }
 /* sister concern start */
 
@@ -1853,6 +1875,21 @@ button:before {
     font-size: 12px;
     padding: 5px;
   }
+
+  .paymetMetod h2{
+    font-size: 22px;
+    margin-bottom: 13px !important;
+  }
+
+  .MobileW25{
+    width: 25% !important;
+    padding: 0 5px !important;
+  }
+
+  .paymetMetod{
+    padding-top: 13px !important ;
+    padding-bottom: 3px !important;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -1873,6 +1910,7 @@ button:before {
   --Second-Color: #0389CA;
   --border-radius: 12px;
   --Frist-Footer: #CCCCCC;
-  --Bg-Section: #C8E7F5;
+  --Bg-Section: #DFE6E9;
+  /* --Bg-Section: #2D3436; */
   --Box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25):
 }
