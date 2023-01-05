@@ -11,8 +11,8 @@ export default function OwlCarosul(){
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5,
+        slidesToShow: 7,
+        slidesToScroll: 7,
         initialSlide: 0,
         responsive: [
           {

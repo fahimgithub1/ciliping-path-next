@@ -82,7 +82,7 @@ label{
 
 .Form button{
   width: 100%;
-  font-size: 23px;
+  font-size: 19px;
 }
 
 button{
@@ -197,6 +197,11 @@ iframe{
 .TopHeder{
   background: var(--Frist-Color);
   color: white;
+}
+
+.TopHeder .py-sm-3{
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important;
 }
 
 .TopHeder span{
@@ -1394,7 +1399,7 @@ iframe{
 
 .LoinBody{
   background-color: var(--Bg-Section);
-  background-image: linear-gradient(to right, var(--Frist-Color), var(--Bg-Section), var(--Second-Color));
+  background-image: linear-gradient(to right,#2c307682,#0389ca6b);
 }
 
 .login100-form-title {
@@ -1416,26 +1421,23 @@ iframe{
 }
 
 .LodinIcon ul li{
-  font-size: 27px;
-  padding: 1px 7px;
+  font-size: 22px;
   color: white;
   border-radius: 50%;
-  background-color: black;
   margin-right: .2rem;
 }
 
 .LodinIcon ul li i{
   margin: 0;
   bottom: 0;
-}
-
-.Singin{
-  margin-top: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #000000;
 }
 
 .Singin {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
 }
 

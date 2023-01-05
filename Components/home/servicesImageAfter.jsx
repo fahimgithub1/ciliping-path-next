@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 import Widthn25Wrapper from "../../layout/width25Wrapper";
 
@@ -18,9 +19,9 @@ export default function ServicesImageAfter(props){
             </div>
 
             <div className="ServicesName">
-                <a href="/services">
+                <Link href="/services">
                     <p>{props.title}</p>
-                </a>
+                </Link>
             </div>
         </Widthn25Wrapper>
     )

@@ -38,8 +38,8 @@ export default function Login() {
 
                 <div className='LodinIcon text-center'>
                     <ul>
-                      <li> <i className='fa-brands fa-google'></i> </li>
-                      <li> <i className='fa-brands fa-facebook'></i> </li>
+                      <li><i className='fa-brands fa-google'></i></li>
+                      <li><i className='fa-brands fa-facebook'></i></li>
                     </ul>
 
                     
